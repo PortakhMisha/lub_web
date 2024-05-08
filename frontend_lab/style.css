@@ -1,0 +1,149 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+	font-family: Arial, San-Serif;
+	font-size: 100%;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+}
+
+/*HEADER*/
+.header {
+	padding: 50px 0;
+	background-color: #1e1c1c;
+    display: flex;
+}
+
+.header h1,
+.header h2 {
+	color: #F9F6EE;
+	text-align: center;
+}
+
+/* NAVIGATION */
+.page-navigation {
+	background-color: #212121;
+	border: 2px solid #ff4545;
+	min-height: 64px;
+    display: flex;
+}
+.navigation-link li {
+	float: left;
+	width: 100px;
+}
+.user-navigation li {
+	float: right;
+	width: 100px;
+}
+.page-navigation button {
+    border: none;
+    height: 64px;
+    width: 100px;
+    font-size: 100%;
+}
+.page-navigation a,
+.page-navigation button {
+	display: block;
+    text-decoration: none;
+    color: #F9F6EE;
+    line-height: 4em;
+    font-weight: bold;
+    text-align: center;
+    background: none;
+    border: none;
+    padding: 0;
+}
+.page-navigation li a:hover,
+.page-navigation li button:hover {
+	color: #F9F6EE;
+	background-color: #ff4545;
+    text-shadow: 0px 0px 10px white;
+}
+
+/* MAIN */
+main{
+    background-color: #1e1c1c;
+    color: #F9F6EE;
+    margin-top: -30px;
+}
+.title {
+    padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 36px;
+    text-align: center;
+    color: #F9F6EE;
+}
+.main-element {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.content {
+    overflow: hidden;
+    display: flex;
+    background-color: #212121;
+    box-shadow: 0px 0px 20px #ff4545;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #ff4545;
+    margin-bottom: 20px;
+    padding-left: 0;
+}
+
+.image {
+    margin-right: 20px;
+    margin-left: 0;
+    height: 300px;
+}
+
+.image img {
+    width: 410px;
+    height: 300px;
+}
+
+.text {
+    margin: 0;
+}
+
+.text ul{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.text li {
+    margin-bottom: 10px;
+}
+
+.guest-list {
+    width: 200px;
+}
+
+/*FOOTER*/
+.footer {
+    border-top: 2px solid #ff4545;;
+	padding: 50px 0;
+	background-color: #212121;
+    display: flex;
+}
+.footer h2,
+.footer h4 {
+	color: #F9F6EE;
+	text-align: center;
+}
