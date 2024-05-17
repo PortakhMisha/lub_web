@@ -99,12 +99,7 @@ function App() {
 	  </header>
 
 	  <nav className="page-navigation">
-          <div className="container">
-		  	  <ul className = "navigation-link">
-		  		  <li><a href="#home">Home</a></li>
-				  <li><a href="#contacts">Contacts</a></li>
-			  </ul>
-		  </div>
+
 
           <div className="container">
 			  <ul className = "user-navigation">
